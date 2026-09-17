@@ -36,3 +36,7 @@ cd devops-engineer-from-scratch-project-49
 ## О Хекслете
 
 [Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
+
+## 📺 Демонстрация
+
+[![asciicast](https://asciinema.org/a/ywAO1DSJAt4kkGTk.svg)](https://asciinema.org/a/ywAO1DSJAt4kkGTk)
