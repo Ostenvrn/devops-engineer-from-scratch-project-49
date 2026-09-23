@@ -42,4 +42,8 @@ cd devops-engineer-from-scratch-project-49
 [![asciicast](https://asciinema.org/a/ywAO1DSJAt4kkGTk.svg)](https://asciinema.org/a/ywAO1DSJAt4kkGTk)
 ## 📺 Демонстрация «НОД»
 
-[![asciicast](https://asciinema.org/a/5cbPHh84SX2C6Cyl.svg)](https://asciinema.org/a/5cbPHh84SX2C6Cyl)
+[![asciicast](https://asciinema.org/a/AK0cqBZlCX3HuDxN.svg)](https://asciinema.org/a/AK0cqBZlCX3HuDxN)
+
+## 📺 Демонстрация «Прогрессия»
+
+[![asciicast](https://asciinema.org/a/.fcmiNdZ1VwpHgS9z.svg)](https://asciinema.org/a/fcmiNdZ1VwpHgS9z)
