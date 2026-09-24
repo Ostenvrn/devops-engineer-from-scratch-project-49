@@ -36,28 +36,27 @@ brain-prime
 
 Установка пакета
 
-https://asciinema.org/a/oxvbC7RpvFpfk3Mi.svg
+[![asciicast](https://asciinema.org/a/oxvbC7RpvFpfk3Mi.svg)](https://asciinema.org/a/oxvbC7RpvFpfk3Mi)
 
 Игра «Чётность»
 
-https://asciinema.org/a/OtRNTMByhmjadZck.svg
+[![asciicast](https://asciinema.org/a/OtRNTMByhmjadZck.svg)](https://asciinema.org/a/OtRNTMByhmjadZck)
 
 Игра «Калькулятор»
 
-https://asciinema.org/a/37mu2XfnPl8JC3Px.svg
+[![asciicast](https://asciinema.org/a/37mu2XfnPl8JC3Px.svg)](https://asciinema.org/a/37mu2XfnPl8JC3Px)
 
 Игра «НОД»
 
-https://asciinema.org/a/AK0cqBZlCX3HuDxN.svg
+[![asciicast](https://asciinema.org/a/AK0cqBZlCX3HuDxN.svg)](https://asciinema.org/a/AK0cqBZlCX3HuDxN)
 
 Игра «Прогрессия»
 
-https://asciinema.org/a/fcmiNdZ1VwpHgS9z.svg
+[![asciicast](https://asciinema.org/a/fcmiNdZ1VwpHgS9z.svg)](https://asciinema.org/a/fcmiNdZ1VwpHgS9z)
 
 Игра «Простое число»
 
-https://asciinema.org/a/MaaRnQ7vh1ZYdJsj.svg
-
+[![asciicast](https://asciinema.org/a/MaaRnQ7vh1ZYdJsj.svg)](https://asciinema.org/a/MaaRnQ7vh1ZYdJsj)
 
 🧰 Технологии
 
