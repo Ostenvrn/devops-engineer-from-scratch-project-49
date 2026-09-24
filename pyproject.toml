@@ -3,6 +3,9 @@ name = "hexlet-code"
 version = "0.1.0"
 description = "Brain Games — набор консольных игр для тренировки мозга"
 readme = "README.md"
+authors = [
+    { name = "Александр", email = "ostenvrn@gmail.com" },
+]
 requires-python = ">=3.10"
 dependencies = [
     "prompt>=0.4.1",
