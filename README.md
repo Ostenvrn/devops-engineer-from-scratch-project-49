@@ -1,53 +1,74 @@
-# Игры разума (Python)
+Brain Games
 
-[![hexlet-check](https://github.com/Ostenvrn/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Ostenvrn/devops-engineer-from-scratch-project-49/actions)
+Набор из 5 консольных игр для тренировки мозга. Учебный проект Hexlet.
 
-Погрузитесь в экосистему Python и научитесь настраивать рабочее окружение. Подружитесь с менеджером зависимостей и линтером. Поймете, чем git отличается от GitHub, поработаете с внешними репозиториями. Получите опыт построения архитектуры полноценного приложения и написания чистого кода.
+🎮 Игры
 
-Учебный проект Хекслета: https://ru.hexlet.io/programs/devops-engineer-from-scratch
-Как это должно работать: https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7
+- **Чётность** — определи, чётное ли число
+- **Калькулятор** — вычисли арифметическое выражение
+- **НОД** — найди наибольший общий делитель двух чисел
+- **Прогрессия** — найди пропущенное число в последовательности
+- **Простое число** — определи, простое ли число
 
-## Стек
+⚙️ Требования
 
-- Python
+- Python 3.10+
+- [uv](https://docs.astral.sh/uv/) — менеджер проектов
 
-## Установка
+🚀 Установка
 
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
-
-```bash
 git clone https://github.com/Ostenvrn/devops-engineer-from-scratch-project-49.git
 cd devops-engineer-from-scratch-project-49
-```
+make install
 
-## Использование
+🎯 Использование
 
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
+После установки пакета доступны команды:
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
 
----
+Каждая игра задаёт 3 вопроса. Для победы нужно ответить правильно на все.
 
-<details>
-<summary>Автоматические тесты Хекслета</summary>
+📺 Демонстрации
 
-Тесты запускаются на каждый коммит. За запуск отвечает файл `.github/workflows/hexlet-check.yml` — не удаляйте и не переименовывайте ни его, ни репозиторий.
+Установка пакета
 
-</details>
+https://asciinema.org/a/oxvbC7RpvFpfk3Mi.svg
 
-## О Хекслете
+Игра «Чётность»
 
-[Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
+https://asciinema.org/a/OtRNTMByhmjadZck.svg
 
-## 📺 Демонстрация
+Игра «Калькулятор»
 
-[![asciicast](https://asciinema.org/a/ywAO1DSJAt4kkGTk.svg)](https://asciinema.org/a/ywAO1DSJAt4kkGTk)
-## 📺 Демонстрация «НОД»
+https://asciinema.org/a/37mu2XfnPl8JC3Px.svg
 
-[![asciicast](https://asciinema.org/a/AK0cqBZlCX3HuDxN.svg)](https://asciinema.org/a/AK0cqBZlCX3HuDxN)
+Игра «НОД»
 
-## 📺 Демонстрация «Прогрессия»
+https://asciinema.org/a/AK0cqBZlCX3HuDxN.svg
 
-[![asciicast](https://asciinema.org/a/fcmiNdZ1VwpHgS9z.svg)](https://asciinema.org/a/fcmiNdZ1VwpHgS9z)
+Игра «Прогрессия»
 
-## 📺 Демонстрация «Простое число»
+https://asciinema.org/a/fcmiNdZ1VwpHgS9z.svg
 
-[![asciicast](https://asciinema.org/a/MaaRnQ7vh1ZYdJsj.svg)](https://asciinema.org/a/MaaRnQ7vh1ZYdJsj)
+Игра «Простое число»
+
+https://asciinema.org/a/MaaRnQ7vh1ZYdJsj.svg
+
+
+🧰 Технологии
+
+    Python 3.10+
+
+    uv — менеджер проектов
+
+    ruff — линтер
+
+    prompt — библиотека для ввода
+
+📄 Лицензия
+
+Учебный проект Hexlet.
