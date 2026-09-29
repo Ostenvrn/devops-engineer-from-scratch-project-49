@@ -8,13 +8,13 @@ from brain_games.games import calc, even, gcd, prime, progression
 
 init(autoreset=True)
 
-# Словарь игр: номер → (название, модуль, иконка)
+# Словарь игр: номер → (ключ, название, модуль, иконка)
 GAMES = {
-    "1": ("Чётность", even, "🔢"),
-    "2": ("Калькулятор", calc, "🧮"),
-    "3": ("НОД", gcd, "🔗"),
-    "4": ("Прогрессия", progression, "📈"),
-    "5": ("Простое число", prime, "🔍"),
+    "1": ("even", "Чётность", even, "🔢"),
+    "2": ("calc", "Калькулятор", calc, "🧮"),
+    "3": ("gcd", "НОД", gcd, "🔗"),
+    "4": ("progression", "Прогрессия", progression, "📈"),
+    "5": ("prime", "Простое число", prime, "🔍"),
 }
 
 MENU_HEADER = f"""
@@ -33,11 +33,12 @@ def show_menu():
     print(MENU_HEADER)
     print(f"{Fore.YELLOW}Выбери игру:{Style.RESET_ALL}\n")
 
-    for num, (name, _, icon) in GAMES.items():
+    for num, (_, name, _, icon) in GAMES.items():
         print(f"  {Fore.GREEN}{num}.{Style.RESET_ALL} {icon}  {name}")
 
     print(f"\n  {Fore.RED}0.{Style.RESET_ALL} 🚪  Выход")
     print(f"\n{Fore.CYAN}{'─' * 44}{Style.RESET_ALL}")
+
     return prompt.string(f"{Fore.YELLOW}Твой выбор: {Style.RESET_ALL}")
 
 
@@ -51,11 +52,11 @@ def main():
             return
 
         if choice in GAMES:
-            name, game, icon = GAMES[choice]
+            game_name, name, game, icon = GAMES[choice]
             print(f"\n{Fore.MAGENTA}{'═' * 44}")
             print(f"  {icon}  Запускаю: {name}")
             print(f"{'═' * 44}{Style.RESET_ALL}\n")
-            run_game(game)
+            run_game(game_name, game)
             print(f"\n{Fore.CYAN}{'─' * 44}{Style.RESET_ALL}\n")
         else:
             error_msg = f"\n{Fore.RED}❌ Неверный выбор. "
