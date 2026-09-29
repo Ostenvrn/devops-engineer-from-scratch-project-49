@@ -2,7 +2,7 @@
 
 import random
 
-DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Ответь "да", если число простое, иначе "нет.'
 
 RANDOM_MIN = 1
 RANDOM_MAX = 100
@@ -25,5 +25,5 @@ def is_prime(number):
 def generate_round():
     """Возвращает вопрос и правильный ответ для одного раунда."""
     number = random.randint(RANDOM_MIN, RANDOM_MAX)
-    correct_answer = "yes" if is_prime(number) else "no"
+    correct_answer = "да" if is_prime(number) else "нет"
     return number, correct_answer

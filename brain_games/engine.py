@@ -19,17 +19,17 @@ def run_game(game_module):
 
     for _ in range(ROUNDS_TO_WIN):
         question, correct_answer = game_module.generate_round()
-        print(f"Question: {question}")
-        user_answer = prompt.string("Your answer: ")
+        print(f"Вопрос: {question}")
+        user_answer = prompt.string("Твой ответ: ")
 
         if user_answer != str(correct_answer):
             print(
-                f"'{user_answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'."
+                f"'{user_answer}' — неправильный ответ ;(. "
+                f"Правильный ответ: '{correct_answer}'."
             )
-            print(f"Let's try again, {name}!")
+            print(f"Попробуй ещё раз, {name}!")
             return
 
-        print("Correct!")
+        print("Верно!")
 
-    print(f"Congratulations, {name}!")
+    print(f"Поздравляю, {name}!")

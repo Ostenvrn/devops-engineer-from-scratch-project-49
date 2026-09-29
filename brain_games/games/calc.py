@@ -2,7 +2,7 @@
 
 import random
 
-DESCRIPTION = "What is the result of the expression?"
+DESCRIPTION = "Сколько будет?"
 
 OPERATORS = ["+", "-", "*"]
 RANDOM_MIN = 1

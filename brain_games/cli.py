@@ -5,7 +5,7 @@ import prompt
 
 def welcome_user():
     """Спрашивает имя пользователя, приветствует и возвращает имя."""
-    print("Welcome to the Brain Games!")
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
+    print("Добро пожаловать в Игры разума!")
+    name = prompt.string("Как тебя зовут? ")
+    print(f"Привет, {name}!")
     return name

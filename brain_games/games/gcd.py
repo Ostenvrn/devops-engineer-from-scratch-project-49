@@ -2,7 +2,7 @@
 
 import random
 
-DESCRIPTION = "Find the greatest common divisor of given numbers."
+DESCRIPTION = "Найди наибольший общий делитель."
 
 RANDOM_MIN = 1
 RANDOM_MAX = 100

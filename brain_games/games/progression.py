@@ -2,7 +2,7 @@
 
 import random
 
-DESCRIPTION = "What number is missing in the progression?"
+DESCRIPTION = "Какое число пропущено в прогрессии?"
 
 START_MIN = 1
 START_MAX = 20
