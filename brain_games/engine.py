@@ -1,8 +1,11 @@
 """Игровой движок — общая логика для всех игр."""
 
 import prompt
+from colorama import Fore, Style, init
 
 from brain_games.cli import welcome_user
+
+init(autoreset=True)
 
 ROUNDS_TO_WIN = 3
 
@@ -15,21 +18,21 @@ def run_game(game_module):
     - generate_round(): tuple — (вопрос, правильный ответ)
     """
     name = welcome_user()
-    print(game_module.DESCRIPTION)
+    print(f"{Fore.MAGENTA}{game_module.DESCRIPTION}{Style.RESET_ALL}")
 
     for _ in range(ROUNDS_TO_WIN):
         question, correct_answer = game_module.generate_round()
-        print(f"Вопрос: {question}")
-        user_answer = prompt.string("Твой ответ: ")
-
+        print(f"{Fore.CYAN}Вопрос: {question}{Style.RESET_ALL}")
+        prompt_text = f"{Fore.YELLOW}Твой ответ: {Style.RESET_ALL}"
+        user_answer = prompt.string(prompt_text)
         if user_answer != str(correct_answer):
             print(
-                f"'{user_answer}' — неправильный ответ ;(. "
-                f"Правильный ответ: '{correct_answer}'."
+                f"{Fore.RED}'{user_answer}' — неправильный ответ ;(. "
+                f"Правильный ответ: '{correct_answer}'.{Style.RESET_ALL}"
             )
-            print(f"Попробуй ещё раз, {name}!")
+            print(f"{Fore.RED}Попробуй ещё раз, {name}!{Style.RESET_ALL}")
             return
 
-        print("Верно!")
+        print(f"{Fore.GREEN}Верно!{Style.RESET_ALL}")
 
-    print(f"Поздравляю, {name}!")
+    print(f"{Fore.GREEN}Поздравляю, {name}!{Style.RESET_ALL}")
